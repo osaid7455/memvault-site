@@ -58,9 +58,10 @@
     <p class="date">Effective date: July 2, 2026</p>
 
     <p class="tldr">
-      TL;DR: MemVault collects nothing. Every memory you save is stored
-      locally in your own browser. Nothing is ever transmitted to us — we
-      don't have servers to send it to.
+      TL;DR: Your memories never leave your browser. They are stored locally
+      on your device and are never transmitted to us or anyone else. The only
+      network communication MemVault performs is an anonymous license check
+      with our payment provider if you upgrade to Pro.
     </p>
 
     <h2>What data MemVault handles</h2>
@@ -85,7 +86,20 @@
       <li><b>storage</b> — to save your memories locally in your browser.</li>
       <li><b>contextMenus</b> — to offer "Save to MemVault memory" when you right-click selected text.</li>
       <li><b>Access to chatgpt.com, claude.ai, gemini.google.com</b> — to show the memory panel and insert your chosen text into the chat box on those sites. MemVault does not read your conversations.</li>
+      <li><b>Access to extensionpay.com</b> — solely to process the optional Pro upgrade and verify its license status. See "Payments" below.</li>
     </ul>
+
+    <h2>Payments (Pro upgrade)</h2>
+    <p>
+      The optional Pro upgrade is processed by
+      <a href="https://extensionpay.com">ExtensionPay</a> and Stripe. If you
+      upgrade, your payment details and email address are handled by those
+      services under their own privacy policies — MemVault itself never sees
+      your payment information. The extension periodically checks your
+      license status with ExtensionPay; this check contains no personal data
+      and none of your saved memories. If you never upgrade, no payment
+      infrastructure is contacted with any account data.
+    </p>
 
     <h2>Data sharing</h2>
     <p>
