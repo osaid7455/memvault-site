@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MemVault — Your memory, every AI</title>
+    <meta
+      name="description"
+      content="MemVault is a Chrome extension that gives you a persistent memory across ChatGPT, Claude, and Gemini. Save your context once, inject it anywhere. 100% local and private."
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          radial-gradient(ellipse 90% 50% at 50% -10%, rgba(124, 108, 246, 0.22), transparent 60%),
+          #131320;
+        color: #eceafd;
+        font: 17px/1.65 -apple-system, "Segoe UI", system-ui, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 72px 24px 48px;
+        text-align: center;
+      }
+      .logo {
+        width: 84px;
+        height: 84px;
+        border-radius: 20px;
+        background: linear-gradient(135deg, #8e7cf8 0%, #6c5ce7 55%, #4b3acd 100%);
+        display: grid;
+        place-items: center;
+        font-size: 46px;
+        box-shadow: 0 10px 40px rgba(108, 92, 231, 0.5);
+        margin-bottom: 24px;
+      }
+      h1 {
+        font-size: 40px;
+        margin: 0 0 8px;
+        letter-spacing: -0.5px;
+      }
+      .tagline {
+        font-size: 20px;
+        color: #a292ff;
+        margin: 0 0 18px;
+      }
+      .sub {
+        max-width: 560px;
+        color: #9895b3;
+        margin: 0 auto 36px;
+      }
+      .cta {
+        display: inline-block;
+        background: linear-gradient(135deg, #8e7cf8, #5a46e4);
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 13px 30px;
+        border-radius: 12px;
+        box-shadow: 0 6px 24px rgba(108, 92, 231, 0.5);
+        transition: transform 0.12s ease;
+      }
+      .cta:hover {
+        transform: translateY(-2px);
+      }
+      .soon {
+        display: block;
+        margin-top: 10px;
+        font-size: 13px;
+        color: #6d6a8a;
+      }
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+        margin: 52px auto 0;
+        max-width: 780px;
+      }
+      .feature {
+        flex: 1 1 220px;
+        background: #1b1b2b;
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        border-radius: 14px;
+        padding: 20px 18px;
+        text-align: left;
+      }
+      .feature h3 {
+        margin: 0 0 6px;
+        font-size: 15px;
+      }
+      .feature p {
+        margin: 0;
+        font-size: 14px;
+        color: #9895b3;
+      }
+      footer {
+        margin-top: auto;
+        padding-top: 56px;
+        font-size: 13px;
+        color: #6d6a8a;
+      }
+      footer a {
+        color: #a292ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">🧠</div>
+    <h1>MemVault</h1>
+    <p class="tagline">Your memory, every AI</p>
+    <p class="sub">
+      Stop re-explaining yourself to every chatbot. Save your context once —
+      who you are, what you're working on, how you like answers — and inject
+      it into ChatGPT, Claude, or Gemini with one click.
+    </p>
+    <a class="cta" href="#">Coming soon to the Chrome Web Store</a>
+    <span class="soon">Free to use · Pro one-time upgrade · No account needed</span>
+
+    <div class="features">
+      <div class="feature">
+        <h3>🔒 100% private</h3>
+        <p>Your memories live in your browser. No cloud, no account, no telemetry — nothing ever leaves your device.</p>
+      </div>
+      <div class="feature">
+        <h3>⚡ One-click context</h3>
+        <p>A floating button on ChatGPT, Claude, and Gemini inserts your saved context straight into the chat.</p>
+      </div>
+      <div class="feature">
+        <h3>✂️ Save from anywhere</h3>
+        <p>Select text on any page, right-click, and it's in your vault — tagged, searchable, editable.</p>
+      </div>
+    </div>
+
+    <footer>
+      <a href="privacy.html">Privacy Policy</a> · © 2026 MemVault
+    </footer>
+  </body>
+</html>
