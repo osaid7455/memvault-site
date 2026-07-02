@@ -1,0 +1,9 @@
+{
+  // Cloudflare Workers config — deploys this folder as a static site.
+  "name": "memvault-site",
+  "compatibility_date": "2026-07-01",
+  "assets": {
+    "directory": "./"
+  },
+  "workers_dev": true
+}
