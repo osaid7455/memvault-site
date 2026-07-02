@@ -97,6 +97,76 @@
         font-size: 14px;
         color: #9895b3;
       }
+      .pricing {
+        margin-top: 64px;
+        width: 100%;
+      }
+      .pricing h2 {
+        font-size: 26px;
+        margin: 0 0 20px;
+      }
+      .plans {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        max-width: 640px;
+        margin: 0 auto;
+      }
+      .plan {
+        flex: 1 1 250px;
+        max-width: 300px;
+        background: #1b1b2b;
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        border-radius: 16px;
+        padding: 24px 22px;
+        text-align: left;
+        position: relative;
+      }
+      .plan.pro {
+        border-color: rgba(124, 108, 246, 0.55);
+        box-shadow: 0 8px 34px rgba(108, 92, 231, 0.25);
+      }
+      .plan-badge {
+        position: absolute;
+        top: -11px;
+        right: 18px;
+        background: linear-gradient(135deg, #8e7cf8, #5a46e4);
+        color: #fff;
+        font-size: 11px;
+        font-weight: 600;
+        border-radius: 20px;
+        padding: 3px 12px;
+      }
+      .plan h3 {
+        margin: 0;
+        font-size: 16px;
+        color: #a292ff;
+      }
+      .price {
+        font-size: 34px;
+        font-weight: 700;
+        margin: 6px 0 12px;
+      }
+      .price span {
+        font-size: 14px;
+        font-weight: 400;
+        color: #9895b3;
+      }
+      .plan ul {
+        margin: 0;
+        padding-left: 18px;
+        color: #9895b3;
+        font-size: 14px;
+      }
+      .plan li {
+        margin: 6px 0;
+      }
+      .refund {
+        color: #9895b3;
+        font-size: 14px;
+        margin-top: 18px;
+      }
       footer {
         margin-top: auto;
         padding-top: 56px;
@@ -135,7 +205,39 @@
       </div>
     </div>
 
+    <section class="pricing">
+      <h2>Pricing</h2>
+      <div class="plans">
+        <div class="plan">
+          <h3>Free</h3>
+          <div class="price">$0</div>
+          <ul>
+            <li>15 saved memories</li>
+            <li>Works on ChatGPT, Claude &amp; Gemini</li>
+            <li>Right-click save from any page</li>
+            <li>Export &amp; import your data</li>
+          </ul>
+        </div>
+        <div class="plan pro">
+          <div class="plan-badge">Most popular</div>
+          <h3>Pro</h3>
+          <div class="price">$12 <span>one-time</span></div>
+          <ul>
+            <li>Unlimited memories</li>
+            <li>All future Pro features included</li>
+            <li>Pay once, keep forever — no subscription</li>
+            <li>Secure checkout via Stripe</li>
+          </ul>
+        </div>
+      </div>
+      <p class="refund">
+        14-day money-back guarantee — email us and we'll refund your
+        purchase, no questions asked.
+      </p>
+    </section>
+
     <footer>
+      Contact: <a href="mailto:topify500@gmail.com">topify500@gmail.com</a> ·
       <a href="privacy.html">Privacy Policy</a> · © 2026 MemVault
     </footer>
   </body>
