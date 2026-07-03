@@ -86,19 +86,20 @@
       <li><b>storage</b> — to save your memories locally in your browser.</li>
       <li><b>contextMenus</b> — to offer "Save to MemVault memory" when you right-click selected text.</li>
       <li><b>Access to chatgpt.com, claude.ai, gemini.google.com</b> — to show the memory panel and insert your chosen text into the chat box on those sites. MemVault does not read your conversations.</li>
-      <li><b>Access to extensionpay.com</b> — solely to process the optional Pro upgrade and verify its license status. See "Payments" below.</li>
+      <li><b>Access to api.lemonsqueezy.com</b> — solely to activate the license key of the optional Pro upgrade. See "Payments" below.</li>
     </ul>
 
     <h2>Payments (Pro upgrade)</h2>
     <p>
-      The optional Pro upgrade is processed by
-      <a href="https://extensionpay.com">ExtensionPay</a> and Stripe. If you
-      upgrade, your payment details and email address are handled by those
-      services under their own privacy policies — MemVault itself never sees
-      your payment information. The extension periodically checks your
-      license status with ExtensionPay; this check contains no personal data
-      and none of your saved memories. If you never upgrade, no payment
-      infrastructure is contacted with any account data.
+      The optional Pro upgrade is sold through
+      <a href="https://www.lemonsqueezy.com">Lemon Squeezy</a>, acting as the
+      merchant of record. Checkout happens entirely on Lemon Squeezy's
+      website under their own privacy policy — MemVault never sees your
+      payment details. After purchase you receive a license key; when you
+      activate it, the extension makes a single request to Lemon Squeezy's
+      license API containing only the key and a random instance name — none
+      of your saved memories and no personal data. If you never upgrade, no
+      payment servers are ever contacted.
     </p>
 
     <h2>Data sharing</h2>
